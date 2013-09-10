@@ -14,12 +14,12 @@ github.com/xiocode
 - 数据抓取系统设计的经验
 - 数据索引与检索
 - 数据分析
-- 正在做的事情
 - 关于未来
 
 * Let's Go
-- Go的学习成本很低
+- Go的学习成本相对较低
 - Go的优势 多核、并行、网络编程
+- 小而精
 - 编译快
 - 工程派
 - ...
@@ -39,9 +39,9 @@ github.com/xiocode
 * 数据索引与检索
 - 文本检索引擎
 - Lucene/Solr/Elasticsearch/Sphinx....
-- Paoding/FudanNLP/ICTCLAS/IK...
+- LTP/Paoding/FudanNLP/ICTCLAS/IK...
 - Pure Go！
-- Wukong + Sego
+- Wukong + Sego + Leveldb
 - 夸一夸
 
 * 数据分析
@@ -50,11 +50,8 @@ github.com/xiocode
 - 那些复杂的用户关系
 - 小明的选择
 
-* 正在做的事情
-- 用最少的机器做最多的事情
-- 针对wukong的二次开发
-
 
 * 关于未来
 - 缩小响应时间
 - 微博全网数据分析
+- 对wukong进行二次开发
