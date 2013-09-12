@@ -11,6 +11,7 @@ github.com/xiocode
 * 大纲
 - Let's Go!
 - 关于微博的那些事
+- Walle·E
 - 数据抓取系统设计的经验
 - 数据索引与检索
 - 数据分析
@@ -25,9 +26,8 @@ github.com/xiocode
 - ...
 
 * 关于微博的那些事
-- 新浪口中的微博 -- 5亿/4620万
-- 我所看到的微博 -- 2亿/2000万
-- 数据带给我们的启示
+- 微博
+- 一些数字 -- 5亿/4620万
 - 我们可以拿这些数据来做什么？
 
 * 数据抓取系统设计的经验
@@ -36,13 +36,27 @@ github.com/xiocode
 - Interface的妙用
 - 性能
 
+* Walle·E
+- API代理
+- 数据抓取
+- 数据分发层
+- 全文索引
+- 数据分析
+
+* 数据分发层
+- NSQ
+.image nsq.1.png
+
+
 * 数据索引与检索
 - 文本检索引擎
 - Lucene/Solr/Elasticsearch/Sphinx....
 - LTP/Paoding/FudanNLP/ICTCLAS/IK...
 - Pure Go！
-- Wukong + Sego + Leveldb
-- 夸一夸
+- 尝试 Wukong + Sego + Leveldb
+- 280W/3.5G
+- 修改方案回归 Elasticsearch + IK + Leveldb
+- 10亿/700G
 
 * 数据分析
 - 数据背后的故事
