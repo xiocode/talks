@@ -45,7 +45,7 @@ github.com/xiocode
 
 * 数据分发层
 - NSQ
-.image nsq.1.png
+.image nsq.png
 
 
 * 数据索引与检索
