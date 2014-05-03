@@ -1,0 +1,93 @@
+Elasticsearch 应用与调优
+
+Weico分享
+2014年5月4日
+
+邵天宇
+Weibo#XIOCODE
+github.com/xiocode
+
+* 关于我
+- 男
+- 程序猿
+- 后端
+- 吉他、听歌、旅游
+- 电影、代码、各类数码产品
+
+* Elasticsearch
+.image images/elasticsearch01.png 600 1000
+
+* 关于Elasticsearch的一些事
+- 基于Lucene
+- 分布式
+- HTTP
+- RESTfull
+- 实时
+- 高效
+- 零配置
+
+* 哪些niubility的公司都在用
+- Github
+- Quora
+- Mozilla
+- Foursquare
+- etc...
+
+* Elasticsearch in Github
+- 50M repos & 5.9M users
+- Largest cluster. 50 EC2(2TB SSD) instances
+- About 50TBs indexes data & 3 billion documents
+- Line numbers in results
+- Code syntax highlighting
+- Last indexed time
+- Search by file extensions
+- Search by path
+- Limit by owner or project
+.link http://exploringelasticsearch.com/github_interview.html
+
+* Elasticsearch in Quora
+.image images/speed_beachmark.png 500 1000
+- Query time percentiles and mean in Quora benchmark data set
+
+* Elasticsearch in Quora
+.image images/relevance_beachmark.png 500 1000
+- Relevance percentiles and mean in Quora benchmark data set
+
+* 创建索引
+- CREATE
+.code snippets/elasticsearch_index_create.go
+- MAPPING
+.code snippets/elasticsearch_index_mapping.go
+
+* 文档操作
+- INDEX
+.code snippets/elasticsearch_index_index.go
+- GET
+.code snippets/elasticsearch_index_get.go
+
+* 文本检索
+- 简单查询
+.code snippets/elasticsearch_index_search.go
+
+* 文本检索
+- Query
+- Filters
+.link http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/query-dsl-queries.html
+
+* 监控
+- 工具 bigdesk & HQ
+.image images/bigdesk.png 500 1000
+
+* 调优
+- JVM （ensure nerver swaps）
+- bootstrap.mlockall: true
+- ES_MIN_MEM == ES_MAX_MEM
+- ulimit -l unlimited
+
+* 调优
+- Increase the number of machines you have so you get less shards allocated per machine.
+- Increase the number of shards an index has, so it can make use of more machines.
+- Start with a lower replica count (even 0)
+- Try and use the thrift client instead of HTTP (If not using java).
+- 写入优化
+.code snippets/elasticsearch_optimize_write.go

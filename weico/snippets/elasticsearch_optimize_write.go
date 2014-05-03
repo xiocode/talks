@@ -1,0 +1,12 @@
+index.translog.flush_threshold_period: 60m
+index.translog.flush_threshold_ops: 1000
+index.translog.flush_threshold_size: 200m
+indices.memory.index_buffer_size: 50%
+indices.memory.min_shard_index_buffer_size: 30m
+indices.memory.min_index_buffer_size: 160m
+index.store.type: mmapfs
+index.refresh_interval: 10s
+index.merge.policy.use_compound_file: false
+threadpool.bulk.type: fixed
+threadpool.bulk.size: 100
+threadpool.bulk.queue_size: 2000
