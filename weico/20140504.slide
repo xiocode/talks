@@ -84,7 +84,7 @@ github.com/xiocode
 - ES_MIN_MEM == ES_MAX_MEM
 - ulimit -l unlimited
 
-* 调优
+* 调优 （10K/PS）
 - Increase the number of machines you have so you get less shards allocated per machine.
 - Increase the number of shards an index has, so it can make use of more machines.
 - Start with a lower replica count (even 0)
