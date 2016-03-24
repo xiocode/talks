@@ -1,0 +1,29 @@
+{"ads": {
+    "ad": [
+            {
+            "appcategory": "Business",
+            "appinstalls": "",
+            "apprating": "3.00",
+            "appreviewnum": "28561",
+            "appsize": "2.5 MB",
+            "campaignid": 293498,
+            "canpreclick": 2,
+            "clkurl": "http://clk.apxadtracking.net/iclk/redirect.php?id=eW9rKUjugTuwD3jRmTeumTJXD3xMgT4QeNo0&trafficsourceid=15097",
+            "connectiontype": "all",
+            "convflow": "101",
+            "countries": "AU",
+            "description": "Find jobs using Indeed, the most comprehensive search engine for jobs.In a single search, Indeed off...",
+            "devicetype": "all",
+            "icon": "http://cdn.avazutracking.net/images/201507/018/49cfa984b1ca031ff823baa064e48965_175x175.png",
+            "incent": "no",
+            "market": "apple",
+            "minosv": "0.0",
+            "os": "ios",
+            "payout": "9.62$",
+            "pkgname": "309735670",
+            "title": "Indeed Job Search"
+            },
+            ...
+        ]
+    }
+}

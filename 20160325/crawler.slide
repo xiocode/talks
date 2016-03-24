@@ -1,0 +1,48 @@
+Hydra Crawler
+
+Appcoach R&D
+2016/03/25
+
+Tony.Shao
+github.com/xiocode
+
+* Overview
+- Hydra(Ad Exchange Engine)
+- Workflow
+
+* Hydra
+.image images/hydra.png 600 600
+
+* Hydra
+- Advertiser
+- Publisher
+- Exchange
+
+* Workflow
+.image images/adserving.png 1280 257
+
+* Crawler Overview
+- Fetcher
+- Scheduler
+- Queue
+- Parser(Context Detect)
+- Storage
+
+* Crawler Architecture
+.image images/crawler.png 785 600
+
+* Parser
+- Config
+.code snippets/config.yml
+
+* Parser
+- Results
+.code snippets/results.json
+
+* Parser
+- Fsnotify
+.code snippets/fsnotify.go
+
+* Parser
+- Parser
+.code snippets/parser.go

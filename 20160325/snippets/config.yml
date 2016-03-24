@@ -1,0 +1,13 @@
+advertiser:
+  id: xxxxx
+  url: http://api.apx.avazutracking.net/xxxx
+  response:
+    results: ads.ad
+    model:
+      pkgname: pkgname
+      title: title
+      price: payout
+      country: countries
+      click_url: clkurl
+      icon_url: icon
+      os: os
